@@ -974,7 +974,8 @@ section
 
 .episodes
 {
-	background: #FFFFFF;
+	/*background: #FFFFFF;*/
+	background-image: linear-gradient(#FFFFFF, #b3bccd);
 	padding-top: 79px;
 	padding-bottom: 99px;
 }
@@ -1257,6 +1258,28 @@ section
 	height: 100%;
 	background: #2e3038;
 }
+/*
+.episode_date
+{
+	margin-top: 7px;
+}
+.episode_date a
+{
+	font-size: 14px;
+	font-weight: 300;
+	color: #2e3038;
+}
+.episode_name a:hover,
+.episode_date a:hover
+{
+	color: #ff3500;
+}
+*/
+.episode_show_more {
+	font-size: 14px;
+	font-weight: 300;
+	color: #2e3038;
+}
 
 /*********************************
 7. Weekly
@@ -1279,7 +1302,7 @@ section
 }
 .weekly_title
 {
-	max-width: 290px;
+	max-width: 550px;
 }
 .weekly_title h1
 {
@@ -1291,12 +1314,21 @@ section
 {
 	margin-top: 20px;
 }
-.weekly_text p
+.weekly_text p,
+.weekly_text ul
 {
+	list-style: unset;
 	font-size: 16px;
 	font-weight: 300;
 	color: #FFFFFF;
 	line-height: 1.875;
+}
+.weekly_text a {
+	color: #BBBBBB;
+}
+.weekly_text a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
 }
 .shops
 {
