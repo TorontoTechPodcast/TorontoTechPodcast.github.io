@@ -1001,7 +1001,7 @@ section
 }
 .episode_image
 {
-	width: 163px;
+	width: 176px;
 	height: 100%;
 }
 .tags
@@ -1051,6 +1051,9 @@ section
 	padding-top: 18px;
 	padding-right: 30px;
 	padding-bottom: 10px;
+}
+.episode_name {
+	white-space: nowrap;
 }
 .episode_name a
 {
