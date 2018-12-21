@@ -20,7 +20,7 @@ $(document).ready(function()
 {
 	"use strict";
 
-	/* 
+	/*
 
 	1. Vars and Inits
 
@@ -51,7 +51,7 @@ $(document).ready(function()
 		setHeader();
 	});
 
-	/* 
+	/*
 
 	2. Set Header
 
@@ -71,7 +71,7 @@ $(document).ready(function()
 		}
 	}
 
-	/* 
+	/*
 
 	3. Init Menu
 
@@ -97,7 +97,7 @@ $(document).ready(function()
 		}
 	}
 
-	/* 
+	/*
 
 	4. Init Favs
 
@@ -126,7 +126,7 @@ $(document).ready(function()
 		}
 	}
 
-	/* 
+	/*
 
 	5. Init SVG
 
@@ -164,10 +164,10 @@ $(document).ready(function()
 					$img.replaceWith($svg);
 				}, 'xml');
 			});
-		}	
+		}
 	}
 
-	/* 
+	/*
 
 	6. Init Isotope
 
@@ -195,7 +195,7 @@ $(document).ready(function()
     	}
     }
 
-	/* 
+	/*
 
 	7. Init Single Player
 
@@ -227,7 +227,7 @@ $(document).ready(function()
 				keyEnabled: true,
 				solution: 'html',
 				preload: 'metadata',
-				volume: 0.2,
+				volume: 0.8,
 				muted: false,
 				backgroundColor: '#000000',
 				errorAlerts: false,
@@ -256,7 +256,7 @@ $(document).ready(function()
 				keyEnabled: true,
 				solution: 'html',
 				preload: 'metadata',
-				volume: 0.2,
+				volume: 0.8,
 				muted: false,
 				backgroundColor: '#000000',
 				errorAlerts: false,
@@ -285,7 +285,7 @@ $(document).ready(function()
 				keyEnabled: true,
 				solution: 'html',
 				preload: 'metadata',
-				volume: 0.2,
+				volume: 0.8,
 				muted: false,
 				backgroundColor: '#000000',
 				errorAlerts: false,
@@ -314,7 +314,7 @@ $(document).ready(function()
 				keyEnabled: true,
 				solution: 'html',
 				preload: 'metadata',
-				volume: 0.2,
+				volume: 0.8,
 				muted: false,
 				backgroundColor: '#000000',
 				errorAlerts: false,
@@ -343,7 +343,7 @@ $(document).ready(function()
 				keyEnabled: true,
 				solution: 'html',
 				preload: 'metadata',
-				volume: 0.2,
+				volume: 0.8,
 				muted: false,
 				backgroundColor: '#000000',
 				errorAlerts: false,
@@ -352,7 +352,7 @@ $(document).ready(function()
 		}
 	}
 
-	/* 
+	/*
 
 	8. Init Gallery
 
