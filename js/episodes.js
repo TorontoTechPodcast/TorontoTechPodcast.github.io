@@ -208,9 +208,9 @@ $(document).ready(function()
 			$("#jplayer_1").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						title:"Better Days",
+						title:"Episode4",
 							artist:"",
-							mp3:"files/bensound-betterdays.mp3"
+							mp3:"episodes/ttp-episode4-zero-to-full-stack-in-10-weeks.mp3"
 					});
 				},
 				play: function() { // To avoid multiple jPlayers playing together.
@@ -237,7 +237,7 @@ $(document).ready(function()
 			$("#jplayer_2").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						title:"Episode 1",
+						title:"Episode 3",
 							artist:"",
 							mp3:"episodes/ttp-episode3-from-old-havana-to-new-toronto.mp3"
 					});
@@ -295,7 +295,7 @@ $(document).ready(function()
 			$("#jplayer_4").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						title:"Episode 3",
+						title:"Episode 1",
 							artist:"",
 							mp3:"episodes/ttp-episode1-initial-commit.mp3"
 					});
