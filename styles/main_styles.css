@@ -751,6 +751,19 @@ section
 	margin-left: 12px;
 	margin-right: 12px;
 }
+.track_bottom_row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 15px;
+	color: #2e3038;
+}
+.track_bottom_row a {
+	color: #2e3038;
+}
+.track_bottom_row a:hover {
+	color: #ff3500;
+}
 
 /*********************************
 6. Sidebar
