@@ -1020,6 +1020,10 @@ section
 		width: 100px;
 	}
 }
+.episode_notes {
+	height: 350px;
+	width: 100%;
+}
 .tags
 {
 	position: absolute;
