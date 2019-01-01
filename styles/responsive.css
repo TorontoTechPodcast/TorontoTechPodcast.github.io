@@ -27,10 +27,10 @@
 
 @media only screen and (max-width: 1600px)
 {
-	.header_content
-	{
-		padding-left: 200px;
-	}
+    .header_content
+    {
+        padding-left: 200px;
+    }
 }
 
 /************
@@ -39,7 +39,7 @@
 
 @media only screen and (max-width: 1440px)
 {
-	
+
 }
 
 /************
@@ -48,7 +48,7 @@
 
 @media only screen and (max-width: 1380px)
 {
-	
+
 }
 
 /************
@@ -57,7 +57,7 @@
 
 @media only screen and (max-width: 1280px)
 {
-	
+
 }
 
 /************
@@ -66,14 +66,14 @@
 
 @media only screen and (max-width: 1199px)
 {
-	.main_nav
-	{
-		display: none;
-	}
-	.hamburger
-	{
-		display: block;
-	}
+    .main_nav
+    {
+        display: none;
+    }
+    .hamburger
+    {
+        display: block;
+    }
 }
 
 /************
@@ -82,7 +82,7 @@
 
 @media only screen and (max-width: 1100px)
 {
-	
+
 }
 
 /************
@@ -91,7 +91,7 @@
 
 @media only screen and (max-width: 1024px)
 {
-	
+
 }
 
 /************
@@ -100,22 +100,22 @@
 
 @media only screen and (max-width: 991px)
 {
-	.submit
-	{
-		display: none;
-	}
-	.menu_submit
-	{
-		display: block;
-	}
-	.weekly_image
-	{
-		margin-top: 80px;
-	}
-	.footer_content_row > div[class^='col']:not(:last-child)
-	{
-		margin-bottom: 80px;
-	}
+    .submit
+    {
+        display: none;
+    }
+    .menu_submit
+    {
+        display: block;
+    }
+    .weekly_image
+    {
+        margin-top: 80px;
+    }
+    .footer_content_row > div[class^='col']:not(:last-child)
+    {
+        margin-bottom: 80px;
+    }
 }
 
 /************
@@ -124,7 +124,7 @@
 
 @media only screen and (max-width: 959px)
 {
-	
+
 }
 
 /************
@@ -133,7 +133,7 @@
 
 @media only screen and (max-width: 880px)
 {
-	
+
 }
 
 /************
@@ -142,7 +142,7 @@
 
 @media only screen and (max-width: 768px)
 {
-	
+
 }
 
 /************
@@ -151,7 +151,7 @@
 
 @media only screen and (max-width: 767px)
 {
-	
+
 }
 
 /************
@@ -160,100 +160,100 @@
 
 @media only screen and (max-width: 575px)
 {
-	.logo
-	{
-		left: 15px;
-		height: 41px;
-	}
-	.logo a
-	{
-		font-size: 24px;
-	}
-	.header_right
-	{
-		right: 15px;
-	}
-	.social
-	{
-		display: none;
-	}
-	.hamburger i
-	{
-		font-size: 24px;
-	}
-	.header_content
-	{
-		height: 70px;
-	}
-	.menu_nav_list li a
-	{
-		font-size: 36px;
-	}
-	.menu .social
-	{
-		display: block;
-	}
-	.home
-	{
-		height: 100vh;
-	}
-	.home_container
-	{
-		top: 55%;
-		-webkit-transform: translateY(-50%);
-		-moz-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-		-o-transform: translateY(-50%);
-		transform: translateY(-50%);
-	}
-	.home_title
-	{
-		margin-top: 10px;
-	}
-	.home_title h1
-	{
-		font-size: 30px;
-	}
-	.home_subtitle
-	{
-		font-size: 15px;
-		margin-top: 12px;
-	}
-	.track_info
-	{
-		margin-top: 17px;
-	}
-	.track_home
-	{
-		margin-top: 26px;
-	}
-	.home_button
-	{
-		margin-top: 28px;
-	}
-	.button_fill,
-	.button_border
-	{
-		height: 38px;
-	}
-	.button_border a
-	{
-		font-size: 12px;
-		line-height: 36px;
-	}
-	.button_fill a
-	{
-		font-size: 12px;
-		line-height: 38px;
-	}
-	.weekly_title h1
-	{
-		font-size: 36px;
-	}
-	.weekly_text p
-	{
-		font-size: 14px;
-	}
+    .logo
+    {
+        left: 15px;
+        height: 41px;
+    }
+    .logo a
+    {
+        font-size: 24px;
+    }
+    .header_right
+    {
+        right: 15px;
+    }
+    .social
+    {
+        display: none;
+    }
+    .hamburger i
+    {
+        font-size: 24px;
+    }
+    .header_content
+    {
+        height: 70px;
+    }
+    .menu_nav_list li a
+    {
+        font-size: 36px;
+    }
+    .menu .social
+    {
+        display: block;
+    }
+    .home
+    {
+        height: 100vh;
+    }
+    .home_container
+    {
+        top: 55%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .home_title
+    {
+        margin-top: 10px;
+    }
+    .home_title h1
+    {
+        font-size: 30px;
+    }
+    .home_subtitle
+    {
+        font-size: 15px;
+        margin-top: 12px;
+    }
+    .track_info
+    {
+        margin-top: 17px;
+    }
+    .track_home
+    {
+        margin-top: 26px;
+    }
+    .home_button
+    {
+        margin-top: 28px;
+    }
+    .button_fill,
+    .button_border
+    {
+        height: 38px;
+    }
+    .button_border a
+    {
+        font-size: 12px;
+        line-height: 36px;
+    }
+    .button_fill a
+    {
+        font-size: 12px;
+        line-height: 38px;
+    }
+    .weekly_title h1
+    {
+        font-size: 36px;
+    }
+    .weekly_text p
+    {
+        font-size: 14px;
+    }
 }
 
 /************
@@ -262,7 +262,7 @@
 
 @media only screen and (max-width: 539px)
 {
-	
+
 }
 
 /************
@@ -271,7 +271,7 @@
 
 @media only screen and (max-width: 480px)
 {
-	
+
 }
 
 /************
@@ -280,7 +280,7 @@
 
 @media only screen and (max-width: 479px)
 {
-	
+
 }
 
 /************
@@ -289,5 +289,5 @@
 
 @media only screen and (max-width: 400px)
 {
-	
+
 }
