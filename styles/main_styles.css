@@ -1024,6 +1024,9 @@ section
     height: 350px;
     width: 100%;
 }
+.episode_notes--hidden .episode_notes {
+    display: none;
+}
 .tags
 {
     position: absolute;

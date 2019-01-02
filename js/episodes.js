@@ -28,13 +28,13 @@ $(document).ready(function()
 
   var ctrl = new ScrollMagic.Controller();
 
-  setHeader();
-  initMenu();
-  initFavs();
-  initSvg();
-  initIsotope();
+  // setHeader();
+  // initMenu();
+  // initFavs();
+  // initSvg();
+  // initIsotope();
   initSinglePlayer();
-  initGallery();
+  // initGallery();
 
   $(window).on('resize', function()
   {

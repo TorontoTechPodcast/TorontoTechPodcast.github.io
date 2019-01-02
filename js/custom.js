@@ -166,3 +166,11 @@ $(document).ready(function()
   }
 
 });
+
+
+const showHideEpisodeNotes = (element) => {
+  // Not great...
+  const episodeElement = element.parentElement.parentElement.parentElement.parentElement.parentElement;
+  episodeElement.classList.toggle('episode_notes--hidden');
+  return false;
+}
