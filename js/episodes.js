@@ -34,7 +34,7 @@ $(document).ready(function()
   // initSvg();
   // initIsotope();
   initSinglePlayer();
-  // initGallery();
+  initGallery();
 
   $(window).on('resize', function()
   {
