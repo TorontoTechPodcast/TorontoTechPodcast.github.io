@@ -1078,6 +1078,8 @@ section
 }
 .episode_name {
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .episode_name a
 {
