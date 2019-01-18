@@ -324,9 +324,9 @@ $(document).ready(function()
       $("#jplayer_5").jPlayer({
         ready: function () {
           $(this).jPlayer("setMedia", {
-            title:"Better Days",
+            title:"Episode 5",
               artist:"",
-              mp3:"files/bensound-betterdays.mp3"
+              mp3:"episodes/ttp-episode5-machine-learning-robots-and-the-freedom-list-with-daniel-snider.mp3"
           });
         },
         play: function() { // To avoid multiple jPlayers playing together.
