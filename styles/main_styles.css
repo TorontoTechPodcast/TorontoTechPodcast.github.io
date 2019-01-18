@@ -1011,13 +1011,24 @@ section
 }
 .episode_image
 {
-    width: 190px;
+    flex-shrink: 0;
+    width: 152px;
     height: 100%;
 }
 @media screen and (max-width:1200px) {
-    /* This doesn't work. Try again later */
     .episode_image {
-        width: 100px;
+        max-width: 100px !important;
+    }
+    .episode_content {
+        max-width: 86% !important;
+    }
+}
+@media screen and (max-width:768px) {
+    .episode_image {
+        max-width: 0px !important;
+    }
+    .episode_content {
+        max-width: 100% !important;
     }
 }
 .episode_notes {
@@ -1069,7 +1080,9 @@ section
 }
 .episode_content
 {
-    width: 100%;
+    flex-shrink: 3;
+    flex-grow: 1;
+    max-width: 82%;
     height: 100%;
     padding-left: 32px;
     padding-top: 18px;
