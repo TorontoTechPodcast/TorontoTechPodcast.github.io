@@ -713,26 +713,20 @@ section
 }
 .track_info
 {
+    margin-left: 15px;
     margin-top: 19px;
 }
-.track_info ul li a,
-.track_info ul li
+.track_info a,
+.track_info
 {
-    font-size: 12px;
+    font-size: 18px;
     color: #FFFFFF;
     font-weight: 300;
     line-height: 1.1;
 }
-.track_info ul li a:hover
+.track_info a:hover
 {
     color: #ff3500;
-}
-.track_info ul li:not(:last-of-type)::after
-{
-    display: inline-block;
-    content: '|';
-    margin-left: 12px;
-    margin-right: 12px;
 }
 .track_bottom_row {
     display: flex;
