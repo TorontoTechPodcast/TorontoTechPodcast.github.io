@@ -12,3 +12,4 @@
 1. Put email on the site somewhere. TorontoTechPodcast@gmail.com
 1. Link closing music's band in the episode notes
 1. Add platform badges instead tiny of header links (soundcloud, spotify, etc)
+1. Resize podcast episode thumbnail
