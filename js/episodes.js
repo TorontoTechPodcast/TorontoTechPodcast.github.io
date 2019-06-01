@@ -466,6 +466,35 @@ $(document).ready(function()
         warningAlerts: false
       });
 
+      $("#jplayer_10").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            title:"Episode 10",
+              artist:"",
+              mp3:"ttp-episode10-lets-play-agile-or-nothing.mp3"
+          });
+        },
+        play: function() { // To avoid multiple jPlayers playing together.
+          $(this).jPlayer("pauseOthers");
+        },
+        swfPath: "plugins/jPlayer",
+        supplied: "mp3",
+        cssSelectorAncestor: "#jp_container_10",
+        wmode: "window",
+        globalVolume: false,
+        useStateClassSkin: true,
+        autoBlur: false,
+        smoothPlayBar: true,
+        keyEnabled: true,
+        solution: 'html',
+        preload: 'metadata',
+        volume: 0.7,
+        muted: false,
+        backgroundColor: '#000000',
+        errorAlerts: false,
+        warningAlerts: false
+      });
+
     }
   }
 
