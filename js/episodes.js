@@ -471,7 +471,7 @@ $(document).ready(function()
           $(this).jPlayer("setMedia", {
             title:"Episode 10",
               artist:"",
-              mp3:"ttp-episode10-lets-play-agile-or-nothing.mp3"
+              mp3:"episodes/ttp-episode10-lets-play-agile-or-nothing.mp3"
           });
         },
         play: function() { // To avoid multiple jPlayers playing together.
