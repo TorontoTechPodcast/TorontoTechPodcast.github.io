@@ -582,6 +582,35 @@ $(document).ready(function()
         warningAlerts: false
       });
 
+      $("#jplayer_14").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            title:"Episode 14",
+              artist:"",
+              mp3:"episodes/ttp-014-what-it-takes-to-make-games-with-dave-and-steven.mp3"
+          });
+        },
+        play: function() { // To avoid multiple jPlayers playing together.
+          $(this).jPlayer("pauseOthers");
+        },
+        swfPath: "plugins/jPlayer",
+        supplied: "mp3",
+        cssSelectorAncestor: "#jp_container_14",
+        wmode: "window",
+        globalVolume: false,
+        useStateClassSkin: true,
+        autoBlur: false,
+        smoothPlayBar: true,
+        keyEnabled: true,
+        solution: 'html',
+        preload: 'metadata',
+        volume: 0.7,
+        muted: false,
+        backgroundColor: '#000000',
+        errorAlerts: false,
+        warningAlerts: false
+      });
+
     }
   }
 
